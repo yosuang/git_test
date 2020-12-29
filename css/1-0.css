@@ -1,0 +1,214 @@
+/*清除所有标签的默认样式（内、外边距）*/
+blockquote,body,button,dd,dl,dt,fieldset,
+form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,
+ol,p,pre,td,textarea,th,ul{
+	margin:0;
+	padding:0
+	}
+body{
+	background-color: #fdfcf8;
+}
+/*--------------------版心------------------------*/
+div#wrapper{
+	width: 1239px;
+	margin: 0 auto;
+	text-align: left;
+	background-image: url(../img/wrapper.png);
+}
+/* --------------------top------------------------ */
+div#firsttop{ 
+	width: 1210px;
+	height: 100px;
+	margin-left: 12px;
+	background-color: #fdfcf8;/*隐藏竖线*/
+    }
+div#firsttop .logo{
+	float: left;
+	margin-top: 24px;
+	}
+div#firsttop .logo img{
+	width: 232px;
+	height: 62px;
+	display: block;
+	}
+div#firsttop .logo img:hover{
+	border-bottom: red solid 5px;
+}
+div#firsttop div#beian{
+    float: right;
+	margin:45px 80px 0 0;
+}
+div#firsttop div#beian a{
+    color: gray;
+    text-decoration:none;
+}
+/* --------------------navfirst------------------------ */
+div#navfirst{
+    height: 48px;
+    width: 1210px;
+	margin-left: 12px;
+    background: #e8e7e3;
+    }					
+div#navfirst ul.menu li{
+    float: left;
+    list-style:none;
+    font-family: 微软雅黑, serif;
+    }
+div#navfirst ul.menu li #h{
+    display: block;
+    width: 165px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+	font-size: 1.1em;
+    color: #787878;
+    text-decoration: none;
+    }
+div#navfirst ul.menu li #b{
+    display: block;
+    width: 192px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 1.1em;
+    color: #787878;
+    text-decoration: none;
+    }
+div#navfirst ul.menu li #s{
+    display: block;
+    width: 173px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 1.1em;
+    color: #787878;
+    text-decoration: none;
+    }
+div#navfirst ul.menu li #p{
+    display: block;
+    width: 198px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 1.1em;
+    color: #787878;
+    text-decoration: none;
+    }
+div#navfirst ul.menu li #x{
+    display: block;
+    width: 114px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 1.1em;
+    color: #787878;
+    text-decoration: none;
+    }
+div#navfirst ul.menu li #w{
+    display: block;
+    width: 198px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 1.1em;
+    color: #787878;
+    text-decoration: none;
+    }
+div#navfirst ul.menu li #r{
+    display: block;
+    width: 170px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 1.1em;
+    color: #787878;
+    text-decoration: none;
+    }
+div#navfirst ul.menu li a:hover {
+	color: white !important;
+	background-color:#3f3f3f;
+    }
+/* --------------------navsecond------------------------ */
+div#navsecond{
+    float: left;
+    width: 180px;
+    margin: 10px 0 0 12px;
+    }
+div#navsecond h2{
+    font-size: 14px;
+    font-family: 微软雅黑, serif;
+    font-weight: bold;
+	padding: 10px 0px 5px 10px;
+    }
+div#navsecond ul.menu li{
+    list-style: none;
+    }
+div#navsecond ul.menu li a{
+    display:block;
+    font-size: 12px;
+	font-family: 微软雅黑, serif;
+    color: black;
+	padding: 5px 0 5px 15px;
+    text-decoration: none;
+    
+    }
+div#navsecond ul.menu li a:hover {
+        background-color:rgb(170,170,170);
+    }
+
+/* --------------------centerContent------------------------ */
+#centerContent{
+    float: left;
+    width: 850px;
+    height: 300px;
+}
+
+/* --------------------navthird------------------------ */
+div#navthird{
+    float: left;
+    width: 180px;
+    margin-top: 10px;
+}
+div#navthird h2{
+    font-size: 14px;
+    font-family: 微软雅黑, serif;
+    font-weight: bold;
+    padding: 10px 0px 5px 10px;
+}
+div#navthird ul.menu li{
+    list-style: none;
+}
+div#navthird ul.menu li a{
+    display:block;
+    font-size: 12px;
+    font-family: 微软雅黑, serif;
+    color: black;
+    padding: 5px 0 5px 15px;
+    text-decoration: none;
+
+}
+div#navthird ul.menu li a:hover {
+    background-color:rgb(170,170,170);
+}
+
+/* --------------------footer------------------------ */
+#footer{
+    width: 1210px;
+    height: 50px;
+    margin-left: 12px;
+    background: #e8e7e3;
+    clear: both /*可以解决底部移上去的问题*/;
+    text-align: center;
+}
+#footer #p1{
+    line-height: 50px;
+
+}
+
+
+#shadow{
+    width: 500px;
+    height: 100px;
+    margin: 0 auto;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+}
